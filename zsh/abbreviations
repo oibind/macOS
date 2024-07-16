@@ -1,0 +1,53 @@
+# generic
+abbr w='wget -c'
+w[Space]
+abbr time='time -f%E'
+abbr c='cd'
+c[Space]
+abbr .='cd ..'
+abbr ..='cd ../..'
+abbr p='cp'
+p[Space]
+abbr mk='mkdir'
+mk[Space]
+abbr r='rm'
+r[Space]
+abbr v='nvim'
+v[Space]
+abbr n='nvim'
+n[Space]
+abbr h='htop'
+h[Space]
+
+# git specific
+abbr lg='lazygit'
+abbr g='git'
+g[Space]
+abbr gg='git clone'
+abbr gb='git branch'
+abbr gco='git checkout'
+abbr gcb="git checkout -b bugfix/(uuidgen | cut -d- -f1)"
+abbr gcf="git checkout -b feature/(uuidgen | cut -d- -f1)"
+abbr gm='git merge'
+abbr gs='git status'
+abbr gl='git log --graph --decorate --oneline'
+abbr gd='git diff'
+abbr ga='git add . && git commit'
+abbr gaa='git add'
+abbr gc='git commit'
+abbr gp='git push'
+abbr gpf='git push --force'
+abbr gr='git rebase'
+abbr gcm='git checkout main'
+abbr gbd='git branch -D'
+abbr gi='git init'
+abbr gy='git pull'
+abbr gu='git reset --hard HEAD~'
+
+# brew specific
+abbr b='brew'
+b[Space]
+abbr bi='brew install'
+abbr bu='brew update && brew upgrade'
+abbr br='brew remove'
+abbr bc='brew cleanup'
