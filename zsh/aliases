@@ -1,6 +1,6 @@
 alias cp='cp -iv'
 alias mv='mv -iv'
-alias rm='rm -vI'
+alias rm='rip'
 alias mkdir='mkdir -pv'
 alias ls='lsd --color=always --group-directories-first --ignore-glob=lost+found --ignore-glob="System Volume Information"'
 alias la='ls -a'
