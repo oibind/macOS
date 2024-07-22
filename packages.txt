@@ -8,7 +8,6 @@ cairo
 cjson
 curl
 dav1d
-eza
 fd
 ffmpeg
 flac
@@ -45,9 +44,9 @@ libass
 libb2
 libbluray
 libevent
-libgit2
 libgit2@1.7
 libidn2
+liblinear
 libmicrohttpd
 libnghttp2
 libogg
@@ -77,12 +76,14 @@ libxext
 libxrender
 little-cms2
 lpeg
+lsd
 lua
 luacheck
 luajit
 luv
 lz4
 lzo
+mailsy
 mbedtls
 mpdecimal
 mpg123
@@ -90,6 +91,7 @@ msgpack
 ncurses
 neovim
 nettle
+nmap
 node
 oniguruma
 opencore-amr
@@ -111,6 +113,7 @@ python@3.12
 rav1e
 readline
 ripgrep
+rm-improved
 rtmpdump
 rubberband
 sdl2
@@ -139,6 +142,7 @@ xz
 zeromq
 zimg
 zoxide
+zsh
 zsh-autosuggestions
 zstd
 alacritty
